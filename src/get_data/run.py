@@ -5,6 +5,7 @@ This script download a URL to a local destination
 import argparse
 import logging
 import os
+import wandb
 
 from wandb_utils.log_artifact import log_artifact
 
